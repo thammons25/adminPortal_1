@@ -1,0 +1,17 @@
+4/16/2016
+	
+REGISTRATION PROCESS
+	-i generate a registration code using sha1( ) with some seed 
+		-it gets put into registerCode along with a corresponding id 
+
+	-that code gets emailed to whoever needs an account 
+
+	-they enter that code in the field in /hpgPortal/register/newClientForm.php
+
+	-whatever code they enter gets passed to /hpgPortal/register/checkRegCode.php
+		-this page calls upon /hpgPortal/register/validateRegCode.php , which is a function that will attempt to select registerCode( id ) based upon the registerCode( regNum ) they entered 	
+			-if it isnt correct it will ask them to try again 
+			-if it is correct it will redirect to newLoginForm.php
+
+	
+
