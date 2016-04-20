@@ -1,0 +1,11 @@
+THIS PAGE WILL TRACK ALL THE SESSION VARIABLES BY DATE 
+
+4/16/16
+
+	logStatus = 0 | 1 
+	logID = logins( id )
+	logName = logins( username )
+
+	clientID = clientLog( $_SESSION["logID"] )
+	
+

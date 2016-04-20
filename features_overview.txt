@@ -1,0 +1,19 @@
+ MESSAGE BOARD
+	-attn
+	-topic
+	-message
+	-attachments
+
+
+FILE SYSTEM DIRECTORY 
+	-view files
+	-request files for dates
+	-comment on files
+	-upload files
+	-update files
+	-delete files 
+
+CONTACT DIRECTORY
+	-contains contact information about individuals associated with account
+	-(if we can have this auto update with google or facebook or something all the better) 
+
