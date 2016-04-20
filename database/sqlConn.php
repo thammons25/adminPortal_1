@@ -1,7 +1,7 @@
 <?php
 	function sqlConn()
 	{
-		$tomConn = mysqli_connect( "localhost:3306" , "root" , "qweasd" , "hpg" );
+		$tomConn = mysqli_connect(  );
 		if( !$tomConn )
 		{
 			die( "FAILED -> " . mysqli_connect_error( $tomConn ) );
