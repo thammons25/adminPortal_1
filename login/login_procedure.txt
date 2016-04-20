@@ -1,0 +1,19 @@
+4/16/2016 
+
+THIS IS HOW A USER BECOMES 'LOGGED IN'
+	-clicks on login from /hpgPortal index
+
+	-hyperlink redirects to /hpgPortal/login/loginForm.php which displays login info box
+
+	-info is passed to /hpgPortal/login/validateLogin.php
+		-if the credentials are legitimate then it will redirect back to the index 
+			-the following session variables will be set:
+				clientID
+				clientName
+				logStatus
+				logID
+				logName
+		-if the credentials are wrong it will display a link asking them to try agian 
+			-link redirects back to ./loginForm.php
+
+END 4/16 COMMENT
