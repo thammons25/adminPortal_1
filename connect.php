@@ -1,5 +1,5 @@
 <?php
-	$myConn = mysqli_connect( "localhost:3306" , "root" , "qweasd" , "hpg" );
+	$myConn = mysqli_connect(  );
 
 	if( !$myConn )
 	{
